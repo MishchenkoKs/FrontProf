@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+width: 293px;
+height: 412px;
+border-radius: 20px;
+border: 1px solid black;
+/* margin: 0 auto; */
+position: relative;
+}
+
+.text{
+    margin: 102px 15px 20px 15px;
+    font-size: 12px;
+    position: relative;
+    
+}
+
+.red_box1, .red_box2{
+    width: 117px;
+    height: 36px;
+    background-color: red;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer{
+width: 85px;
+height: 51px;
+background-color: red;
+margin: 24px auto 14px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.circle1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    top: 15px;
+    left: 15px;
+}
+
+.circle2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    top: 14px;
+    left: 55px;
+}
+
+.circle3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 4px;
+    left: 42px;
+}
+
+.circle4{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 4px;
+    left: 66px;
+}
+
+.circle5{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: rgb(200, 6, 142);
+    border-radius: 50%;
+    top: 14px;
+    right: 16px;
+}
+
+.circle6{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-color: rgb(39, 175, 220);
+    border-radius: 50%;
+    top: 28px;
+    right: 23px;
+    z-index: -1;
+
+}
+
+.circle7{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px dotted black;
+    border-radius: 50%;
+    top: 7px;
+    right: 12px;
+    z-index: -1;
+    background-color: rgba(235, 220, 82, 0.607);
+
+}
+
+.text::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(153, 50, 204);
+    border-radius: 50%;
+    content: "";
+    top: -35px ;
+    left: 96px;
+}
+
+.text::after{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(153, 50, 204);
+    border-radius: 50%;
+    content: "";
+    top: -35px ;
+    right: 96px;
+}
+
+.red_box1::before{
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: darkslategray;
+    top: 23px;
+    left: -9px;
+}
+
+.red_box2::after{
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px dotted black;
+    top: -15px;
+    right: -10px;
+}
+
+.big_circle1, .big_circle2{
+    position: relative;
+}
+
+.big_circle1::before{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: brown;
+    content: "";
+    right: -25px;
+    top: -10px;
+
+}
+.big_circle1::after{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(81, 61, 61);
+    content: "";
+    right: -15px;
+    bottom: -125px;
+
+}
+
+.big_circle2::before{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(149, 209, 238);
+    content: "";
+    right: -75px;
+    bottom: -135px;
+
+}
+
+.big_circle2::after{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid black;
+    content: "";
+    right: -85px;
+    bottom: -80px;
+
+}
+

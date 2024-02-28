@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+button{
+    font-family: "Oswald", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0 300px 0;
+    background: url("./image/Rectangle.jpg") no-repeat center center /cover;
+    position: relative;
+}
+
+.intro h1{
+    font-size: 61px;
+    max-width: 40%;
+    text-align: center;
+    color: white;
+}
+
+.intro h5 {
+    font-size: 18px;
+    margin: 20px 0 40px 0;
+    color: white;
+}
+.box{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    max-height: 300px;
+    position: absolute;
+    bottom: 0;
+}
+.box li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.box h3{
+    font-size: 72px;
+    color: #F7654A;
+}
+
+.box h4{
+    font-size: 36px;
+}
+.box h5{
+    font-size: 18px;
+    color: gray;
+}
+
+.project{
+    padding: 150px 0;
+}
+
+.project h3{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project_item{
+    max-width: 350px;
+
+}
+
+.project_item h4{
+    font-size: 24px;
+    color: #404149;
+
+}
+
+.project_item p{
+    font-size: 16px;
+    color: #999999;
+
+}
+
+.project_list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.request{
+  
+  background: #F7654A;
+
+}
+.request_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+  margin: 0 auto;
+}
+
+.request_container h2{
+    font-size: 48px;
+    color: white;
+}
+
+.request_container h3{
+    font-size: 24px;
+    color: white;
+    
+}
+
+.button button{
+    background: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 14px 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.services {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .services h3{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+
+  .services__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .services__item {
+    width: 350px;
+    background: teal;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .services__item h4 {
+    max-width: 170px;
+    text-align: center;
+  }
+
+  .services__item{
+    margin: 15px;
+  }
+  .services__list2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 20px;
+  }
+

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 82px auto 0;
+
+}
+
+.box{
+width: 249px;
+height: 383px;
+background-color: darksalmon;
+margin-bottom: 30px;
+
+}
+p{
+width: 249px;
+text-align: justify;
+}
+
+.forever_alone_plak_plak{
+    margin: 90px auto;
+    text-align: center;
+}
