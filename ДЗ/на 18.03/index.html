@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <form>
-        <input type="text">
+    <form id="formId">
+        <h1>User name</h1>
+        <input class="user_name" id="userName" type="UserName">
+        <button class="firstButton" type="submit">Сохранить значение</button>
     </form>
+    <div class="firstUl">
+        <h2>Список имен</h2>
+        <ul id="userList"></ul>
+    </div>
 
+    <div class="visit__counter">
+        <h1>Счетчик посещений</h1>
+            <p>You have visited this page <span id="visitCount">0</span> times</p>
+    </div> 
 
-
-
-
-
-
+    <form id="secondId">
+    <h1 class="second_title">Список задач</h1>
+    <input class="second_input" type="text" id="toDoList">
+    <button class="second_button" type="submit">Сохранить значение</button>
+  </form>
+  <div class="second_ul">
+    <h2>Список задач</h2>
+        <ul id="newToDoList"></ul>
+  </div> 
+ 
 
 
     <script src="./script.js"></script>
 </body>
+
 </html>
