@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+span{
+    color:darkslateblue;
+    font-size: 50px;
+    
+}
+
+.btn{
+    background-color: rgb(230, 155, 155);
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 50px;
+}
+
