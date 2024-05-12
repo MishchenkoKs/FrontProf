@@ -1,0 +1,12 @@
+.modal__window{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 40px 104px;
+gap: 80px;
+}
+
+.button__container{
+    display: flex;
+   
+}

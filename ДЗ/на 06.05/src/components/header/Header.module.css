@@ -1,0 +1,29 @@
+header{
+    background: #333331;
+    width: 100%;
+    padding: 12px 63px;
+
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+.left__side{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+.right__side ul{
+    display: flex;
+    gap: 22px;
+}
+
+.left__side img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
